@@ -691,6 +691,9 @@ section{
 
 .shopping-cart .box-container .box img{
    height: 30rem;
+   width: 100%;
+   object-fit: cover; 
+   border-radius: .5rem;
 }
 
 .shopping-cart .box-container .box .name{
@@ -943,10 +946,12 @@ section{
 }
 
 .footer .credit span{
-   color:var(--orange);
+   color:var(--red);
 }
 
-
+.footer .credit span a{
+   color:var(--orange);
+}
 
 
 /* media queries  */

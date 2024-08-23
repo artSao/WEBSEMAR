@@ -85,14 +85,14 @@ if(isset($_POST['order_btn'])){
             $total_price = ($fetch_cart['price'] * $fetch_cart['quantity']);
             $grand_total += $total_price;
    ?>
-   <p> <?php echo $fetch_cart['name']; ?> <span>(<?php echo '$'.$fetch_cart['price'].'/-'.' x '. $fetch_cart['quantity']; ?>)</span> </p>
+   <p> <?php echo $fetch_cart['name']; ?> <span>(<?php echo 'Rp.'.$fetch_cart['price'].'/-'.' x '. $fetch_cart['quantity']; ?>)</span> </p>
    <?php
       }
    }else{
       echo '<p class="empty">your cart is empty</p>';
    }
    ?>
-   <div class="grand-total"> grand total : <span>$<?php echo $grand_total; ?>/-</span> </div>
+   <div class="grand-total"> grand total : <span>Rp.<?php echo $grand_total; ?>/-</span> </div>
 
 </section>
 
@@ -118,8 +118,8 @@ if(isset($_POST['order_btn'])){
             <select name="method">
                <option value="cash on delivery">cash on delivery</option>
                <option value="credit card">credit card</option>
-               <option value="paypal">paypal</option>
-               <option value="paytm">paytm</option>
+               <option value="paypal">debit card</option>
+               <option value="paytm">paypal</option>
             </select>
          </div>
          <div class="inputBox">
