@@ -29,4 +29,6 @@
     - Buka XAMPP, dan jalankan Apache dan MySQL.
     - Buka browser dan akses web SEMAR melalui URL berikut : http://localhost/semar-web.
   
----------------------------------------- THANK YOU ----------------------------------------
+
+  
+-------------------------------------------------- **THANK YOU** --------------------------------------------------
