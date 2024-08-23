@@ -38,8 +38,9 @@
     - Buka browser dan akses web SEMAR melalui URL berikut : http://localhost/WEBSEMAR.
 
 <ul>
-<li>Line 1</li>
-<li>Line 2</li>
+<li></li>
+<li></li>
+<li></li>
 </ul>
 <p align="center">
   <img src="https://media.giphy.com/media/fxI1G5PNC5esyNlIUs/giphy.gif" alt="Contoh Gambar" width="300">
