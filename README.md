@@ -27,7 +27,7 @@
 
 6. Jalankan Web Server
     - Buka XAMPP, dan jalankan Apache dan MySQL.
-    - Buka browser dan akses web SEMAR melalui URL berikut : http://localhost/semar-web.
+    - Buka browser dan akses web SEMAR melalui URL berikut : http://localhost/WEBSEMAR.
   
 
   
