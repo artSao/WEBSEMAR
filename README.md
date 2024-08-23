@@ -37,5 +37,7 @@
     - Buka XAMPP, dan jalankan Apache dan MySQL.
     - Buka browser dan akses web SEMAR melalui URL berikut : http://localhost/WEBSEMAR.
   
-![alt text](https://media.giphy.com/media/xUPGcg1IJEKGCI6r5e/giphy.gif?raw=true)
--------------------------------------------------- **THANK YOU** ------------------------------------------------------------
+<p align="center">
+  <img src="https://media.giphy.com/media/xUPGcg1IJEKGCI6r5e/giphy.gif" alt="Contoh Gambar" width="300">
+</p>
+
