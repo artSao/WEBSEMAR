@@ -6,7 +6,7 @@
 
 2. Clone Repository:
     - Jalankan perintah berikut di terminal Anda:
-    - ## git clone https://github.com/artSao/WEBSEMAR
+    - ### git clone https://github.com/artSao/WEBSEMAR
     - Ini akan meng-clone seluruh isi repository ke folder di komputer Anda.
 
 3. Buka Folder Project:
