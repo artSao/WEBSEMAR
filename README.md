@@ -18,7 +18,7 @@
     - Ini akan meng-clone seluruh isi repository ke folder di komputer Anda.
 
 3. Buka Folder Project:
-    - mausk ke direktori projek
+    - masuk ke direktori projek
     - "**cd WEBSEMAR**"
 
 4. Untuk menjalankan aplikasi PHP secara lokal, Anda perlu mengatur lingkungan pengembangan yang mendukung PHP.
