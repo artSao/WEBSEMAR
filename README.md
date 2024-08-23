@@ -39,7 +39,6 @@
 
 <br/><br/>
 <br/>
-<br/>
 <p align="center">
   <img src="https://media.giphy.com/media/3ohs7JG6cq7EWesFcQ/giphy.gif" alt="Contoh Gambar" width="300">
 </p>
