@@ -1,3 +1,8 @@
+<div id="header" align="center">
+  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
+</div>
+
+
 **Berikut adalah langkah-langkah untuk meng-clone, membuka, dan menjalankan WEBSEMAR:**
 
 1. Buka Terminal atau Command Prompt:
@@ -30,7 +35,4 @@
     - Buka browser dan akses web SEMAR melalui URL berikut : http://localhost/WEBSEMAR.
   
 
-  <div id="header" align="center">
-  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
-</div>
 -------------------------------------------------- **THANK YOU** ------------------------------------------------------------
