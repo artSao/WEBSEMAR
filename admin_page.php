@@ -50,7 +50,7 @@ if(!isset($admin_id)){
                };
             };
          ?>
-         <h3>$<?php echo $total_pendings; ?>/-</h3>
+         <h3>Rp<?php echo number_format($total_pendings, 0, ',', '.'); ?>,-</h3>
          <p>total pendings</p>
       </div>
 
@@ -65,7 +65,7 @@ if(!isset($admin_id)){
                };
             };
          ?>
-         <h3>$<?php echo $total_completed; ?>/-</h3>
+         <h3>Rp<?php echo number_format($total_completed, 0, ',', '.'); ?>,-</h3>
          <p>completed payments</p>
       </div>
 
@@ -128,14 +128,6 @@ if(!isset($admin_id)){
 </section>
 
 <!-- admin dashboard section ends -->
-
-
-
-
-
-
-
-
 
 <!-- custom admin js file link  -->
 <script src="js/admin_script.js"></script>
