@@ -28,7 +28,7 @@ if(isset($message)){
    <div class="header-2">
       <div class="flex">
          <a href="home.php" class="logo">
-            <img src="images/rz3semarkomp.png" alt="masukan foto pepek"></a>
+            <img src="images/CakKarnoresize.png" alt="masukan foto pepek"></a>
          
 
          <nav class="navbar">

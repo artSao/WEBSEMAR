@@ -57,8 +57,8 @@ if (isset($_POST['add_to_cart'])) {
 <section class="home">
 
    <div class="content">
-      <h3>SEMAR (Sustainable Environment Market, Management, and Recycling).</h3>
-      <p>hadir sebagai solusi digital yang inovatif untuk mendorong pembangunan ekonomi berkelanjutan di Indonesia.</p>
+      <h3>Pecel Lele Cak Karno.</h3>
+      <p>Nikmati aneka menu lezat dengan pelayanan terbaik! Pesan mudah melalui Website atau telepon. Enak, bersih, terpercaya!</p>
       <a href="about.php" class="white-btn">discover more</a>
    </div>
 
@@ -74,15 +74,11 @@ if (isset($_POST['add_to_cart'])) {
          $select_products = mysqli_query($conn, "SELECT * FROM `products` LIMIT 6") or die('query failed');
          if (mysqli_num_rows($select_products) > 0) {
             while ($fetch_products = mysqli_fetch_assoc($select_products)) {
-                $product_price_idr = $fetch_products['price'] * $usd_to_idr;
       ?>
      <form action="" method="post" class="box">
       <img class="image" src="uploaded_img/<?php echo $fetch_products['image']; ?>" alt="">
       <div class="name"><?php echo $fetch_products['name']; ?></div>
-      <div class="price">
-         <p>$<?php echo number_format($fetch_products['price'], 2); ?>/-</p>
-         <p>Rp<?php echo number_format($product_price_idr, 0, ',', '.'); ?>/-</p>
-      </div>
+      <div class="price">Rp<?php echo number_format($fetch_products['price'], 0, ',', '.'); ?>/-</div>
       <input type="number" min="1" name="product_quantity" value="1" class="qty">
       <input type="hidden" name="product_name" value="<?php echo $fetch_products['name']; ?>">
       <input type="hidden" name="product_price" value="<?php echo $fetch_products['price']; ?>">
@@ -103,6 +99,7 @@ if (isset($_POST['add_to_cart'])) {
 
 </section>
 
+
 <section class="about">
 
    <div class="flex">
@@ -113,7 +110,7 @@ if (isset($_POST['add_to_cart'])) {
 
       <div class="content">
          <h3>about us</h3>
-         <p>Jelajahi lebih dalam tentang visi dan misi kami untuk masa depan yang berkelanjutan. Klik di sini untuk mengetahui lebih lanjut!</p>
+         <p>Pecel Lele Cak Karno berdedikasi menyajikan hidangan lezat dengan bahan berkualitas, kebersihan terjaga, dan pelayanan ramah. Kami selalu mendengar kritik dan saran untuk terus meningkatkan pengalaman Anda. Enak, bersih, terpercaya sejak hari pertama!</p>
          <a href="about.php" class="btn">read more</a>
       </div>
 

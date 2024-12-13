@@ -10,8 +10,6 @@ if (!isset($user_id)) {
     header('location:login.php');
 }
 
-$usd_to_idr = 15000; // Nilai tukar tetap
-
 if (isset($_POST['add_to_cart'])) {
 
     $product_name = $_POST['product_name'];
@@ -19,8 +17,8 @@ if (isset($_POST['add_to_cart'])) {
     $product_image = $_POST['product_image'];
     $product_quantity = $_POST['product_quantity'];
 
-    // Konversi harga produk ke IDR
-    $product_price_idr = $product_price * $usd_to_idr;
+    // Menggunakan harga dalam Rupiah (IDR) langsung dari database
+    $product_price_idr = $product_price; // Tidak ada konversi USD ke IDR
 
     $check_cart_numbers = mysqli_query($conn, "SELECT * FROM `cart` WHERE name = '$product_name' AND user_id = '$user_id'") or die('query failed');
 
@@ -69,14 +67,14 @@ if (isset($_POST['add_to_cart'])) {
          $select_products = mysqli_query($conn, "SELECT * FROM `products`") or die('query failed');
          if (mysqli_num_rows($select_products) > 0) {
             while ($fetch_products = mysqli_fetch_assoc($select_products)) {
-                $product_price_idr = $fetch_products['price'] * $usd_to_idr;
+                // Menggunakan harga dalam IDR langsung dari database
+                $product_price_idr = $fetch_products['price']; // Harga dalam Rupiah (IDR)
       ?>
       <form action="" method="post" class="box">
          <img class="image" src="uploaded_img/<?php echo $fetch_products['image']; ?>" alt="">
          <div class="name"><?php echo $fetch_products['name']; ?></div>
          <div class="price">
-            <p>$<?php echo number_format($fetch_products['price'], 2); ?>/-</p>
-            <p>Rp<?php echo number_format($product_price_idr, 0, ',', '.'); ?>/-</p>
+            <p>Rp<?php echo number_format($product_price_idr, 0, ',', '.'); ?>,-</p>
          </div>
          <input type="number" min="1" name="product_quantity" value="1" class="qty">
          <input type="hidden" name="product_name" value="<?php echo $fetch_products['name']; ?>">

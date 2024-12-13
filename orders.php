@@ -46,6 +46,8 @@ if(!isset($user_id)){
          $order_query = mysqli_query($conn, "SELECT * FROM `orders` WHERE user_id = '$user_id'") or die('query failed');
          if(mysqli_num_rows($order_query) > 0){
             while($fetch_orders = mysqli_fetch_assoc($order_query)){
+                // Menghitung total harga dalam IDR
+                $total_price_idr = $fetch_orders['total_price']; // Harga sudah dalam IDR di database
       ?>
       <div class="box">
          <p> placed on : <span><?php echo $fetch_orders['placed_on']; ?></span> </p>
@@ -55,7 +57,7 @@ if(!isset($user_id)){
          <p> address : <span><?php echo $fetch_orders['address']; ?></span> </p>
          <p> payment method : <span><?php echo $fetch_orders['method']; ?></span> </p>
          <p> your orders : <span><?php echo $fetch_orders['total_products']; ?></span> </p>
-         <p> total price : <span>$<?php echo $fetch_orders['total_price']; ?>/-</span> </p>
+         <p> total price : <span>Rp<?php echo number_format($total_price_idr, 0, ',', '.'); ?>,-</span> </p>
          <p> payment status : <span style="color:<?php if($fetch_orders['payment_status'] == 'pending'){ echo 'red'; }else{ echo 'green'; } ?>;"><?php echo $fetch_orders['payment_status']; ?></span> </p>
          </div>
       <?php
@@ -67,13 +69,6 @@ if(!isset($user_id)){
    </div>
 
 </section>
-
-
-
-
-
-
-
 
 <?php include 'footer.php'; ?>
 

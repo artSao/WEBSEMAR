@@ -41,16 +41,22 @@ if(!isset($user_id)){
    <div class="flex">
 
       <div class="image">
-         <img src="images/recycle1.jpg" alt="">
+         <img src="images/Banner.png" alt="">
       </div>
 
       <div class="content">
          
          <h3>why choose us?</h3>
-         <p>Selamat datang di SEMAR (Sustainable Environment Market, Management, and Recycling), platform digital yang dirancang untuk mendorong pembangunan ekonomi berkelanjutan di Indonesia. Kami percaya bahwa masa depan yang lebih baik dapat dicapai dengan mengintegrasikan pendekatan pasar, manajemen, dan daur ulang dalam satu ekosistem terpadu.</p>
+         <p>
+         Pecel Lele Cak Karno menghadirkan cita rasa autentik masakan khas Indonesia dengan beragam pilihan menu seperti lele, ayam, bebek, dan aneka lauk lainnya. Kami mengutamakan kualitas, kebersihan, serta pelayanan ramah untuk memastikan kepuasan pelanggan. Dengan dukungan layanan pemesanan online, kami siap menjadi pilihan terbaik untuk pengalaman kuliner Anda.</p>
          <h1>Visi & misi</h1>
-         <p><b>VISI</b> kami adalah menjadi platform terdepan dalam mengatasi tantangan lingkungan dan mendukung transisi Indonesia menuju ekonomi sirkular yang berkelanjutan. Kami berkomitmen untuk menciptakan lingkungan yang lebih bersih dan sehat, serta meningkatkan kualitas hidup masyarakat melalui teknologi inovatif dan kolaborasi yang efektif.</p>
-         <p><b>MISI</b> kami adalah mempromosikan penggunaan kembali material dan mengurangi ketergantungan pada sumber daya alam baru melalui marketplace produk daur ulang. Kami juga menyediakan alat pemantauan lingkungan berbasis data untuk efisiensi pengelolaan sumber daya serta meningkatkan kesadaran dan partisipasi publik dalam praktik berkelanjutan melalui kampanye edukasi dan kesadaran lingkungan.</p>
+         <p><b>VISI</b> Menyediakan pengalaman kuliner terbaik dengan cita rasa autentik, pelayanan ramah, dan kebersihan terjaga, untuk menciptakan kepuasan pelanggan dan menjadi pilihan utama pecinta masakan khas Indonesia.</p>
+         <p><b>MISI</b> Menyajikan makanan berkualitas dengan cita rasa autentik.
+Memberikan pelayanan yang ramah dan cepat.
+Menjaga kebersihan dan kenyamanan pelanggan.
+Mempermudah pemesanan melalui layanan online.
+Menanggapi keluhan dan masukan pelanggan dengan solusi terbaik.</p>
+         
          <a href="contact.php" class="btn">contact us</a>
 
       </div>
