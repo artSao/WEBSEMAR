@@ -20,10 +20,10 @@
 
       <div class="box">
          <h3>contact info</h3>
-         <p> <i class="fas fa-phone"></i> +0721 - 702022</p>
-         <p> <i class="fas fa-phone"></i> +085383020570 (Chat Only) </p>
-         <p> <i class="fas fa-envelope"></i> semar@gmail.com </p>
-         <p> <i class="fas fa-map-marker-alt"></i> B.Lampung, Indonesia - 35132 </p>
+         <p> <i class="fas fa-phone"></i> +0813-6995-6227</p>
+         <p> <i class="fas fa-phone"></i> +0813-6995-6227 (Chat Only) </p>
+         <p> <i class="fas fa-envelope"></i> pecellelesurabaya@gmail.com </p>
+         <p> <i class="fas fa-map-marker-alt"></i> B.Lampung, Indonesia - 35126 </p>
       </div>
 
       <div class="box">
