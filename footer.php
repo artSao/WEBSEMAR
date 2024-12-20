@@ -23,7 +23,7 @@
          <p> <i class="fas fa-phone"></i> +0813-6995-6227</p>
          <p> <i class="fas fa-phone"></i> +0813-6995-6227 (Chat Only) </p>
          <p> <i class="fas fa-envelope"></i> pecellelesurabaya@gmail.com </p>
-         <p> <i class="fas fa-map-marker-alt"></i> B.Lampung, Indonesia - 35126 </p>
+         <p> <i class="fas fa-map-marker-alt"></i> Jl. Gajah Mada No.85 D, Tj. Agung Raya, Kec. Kedamaian, Kota Bandar Lampung, Lampung 35126 </p>
       </div>
 
       <div class="box">
